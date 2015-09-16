@@ -1,7 +1,7 @@
 /**
  * Module dependencies.
  */
-var debug = require('debug')('glint:trigger');
+var debug = require('debug')('glint-trigger');
 var merge = require('utils-merge');
 var EventEmitter = require('events').EventEmitter;
 var inherits = require('inherits');
