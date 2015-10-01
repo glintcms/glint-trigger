@@ -47,7 +47,6 @@ Trigger.prototype.find = function (sink) {
     return this.sinks.filter(function (s) {
       return sink == s;
     })[0];
-    return
   } else {
     // compare objects identifier string
     return this.sinks.filter(function (s) {
